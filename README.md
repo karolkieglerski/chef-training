@@ -6,8 +6,6 @@ chef, knife, berkshelf, chef-zero, knife-zero training
 
 Instruction to install all requirements you can find in `/requirements` directory. All instructions are written from macos user. If you use Linux or Windows you can find similar instrucions on vendors websites
 
----
-
 ## requirements
 
 * Virtualbox
@@ -38,8 +36,6 @@ Instruction to install all requirements you can find in `/requirements` director
 In every directory you have task instruction, code to use (it required) and a code you could get at the end of that task in `complite` directory. 
 
 Do task by task and have fun!
-
----
 
 ## biography
 
