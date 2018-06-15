@@ -38,3 +38,11 @@ Instruction to install all requirements you can find in `/requirements` director
 In every directory you have task instruction, code to use (it required) and a code you could get at the end of that task in `complite` directory. 
 
 Do task by task and have fun!
+
+---
+
+## biography
+
+* [Vagrant DOCS](https://www.vagrantup.com/docs/)
+* [Chef DOCS](https://docs.chef.io/)
+* [Knife-Zero](http://knife-zero.github.io/)
