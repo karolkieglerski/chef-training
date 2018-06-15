@@ -35,7 +35,11 @@ Open terminal because all commands in that course you will run from that applica
 5. Configure chef knife
 
     ```bash
-    cat <<EOT > ~/.chef/knife.rb
+    knife configure
+
+    mkdir -p .chef/
+
+    cat <<EOT > .chef/knife.rb
         current_dir = File.dirname(__FILE__)
         user = ENV['OPSCODE_USER'] || ENV['USER']
         node_name                user
@@ -44,6 +48,6 @@ Open terminal because all commands in that course you will run from that applica
         validation_key           "#{ENV['HOME']}/.chef/#{ENV['ORGNAME']}-validator.pem"
         chef_server_url          'http://127.0.0.1:8889' #chef-zero server url
         syntax_check_cache_path  "#{ENV['HOME']}/.chef/syntax_check_cache"
-        cookbook_path            ["#{current_dir}/../chef-course/chef-repo/cookbooks"]
+        cookbook_path            ["#{current_dir}/../cookbooks"]
     EOT
     ```
