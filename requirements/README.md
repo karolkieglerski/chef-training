@@ -37,6 +37,8 @@
     brew install rbenv
     rbenv init
     echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+    echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+    echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bash_profile
     source ~/.bash_profile
     rbenv install 2.4.1
     rbenv global 2.4.1

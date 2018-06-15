@@ -2,16 +2,17 @@
 
 Open terminal because all commands in that course you will run from that application.
 
-1. Create directory of your project `chef-project`
+1. Create directory of your project `chef-course`
 
     ```bash
-    mkdir -p chef-project
+    cd ~
+    mkdir -p chef-course
     ```
 
 2. In that directory create `Vagrantfile`
 
     ```bash
-    cd chef-project
+    cd chef-course
     vagrant init ubuntu/xenial64
     ```
 
