@@ -1,0 +1,38 @@
+{
+  "name": "production-server",
+  "normal": {
+    "knife_zero": {
+      "host": "192.168.33.10"
+    },
+    "tags": [
+
+    ]
+  },
+  "automatic": {
+    "fqdn": "ubuntu-xenial",
+    "os": "linux",
+    "os_version": "4.4.0-128-generic",
+    "hostname": "ubuntu-xenial",
+    "ipaddress": "10.0.2.15",
+    "roles": [
+
+    ],
+    "recipes": [
+
+    ],
+    "platform": "ubuntu",
+    "platform_version": "16.04",
+    "cloud": null,
+    "cloud_v2": null,
+    "chef_packages": {
+      "ohai": {
+        "version": "13.9.2",
+        "ohai_root": "/opt/chef/embedded/lib/ruby/gems/2.4.0/gems/ohai-13.9.2/lib/ohai"
+      },
+      "chef": {
+        "version": "13.9.4",
+        "chef_root": "/opt/chef/embedded/lib/ruby/gems/2.4.0/gems/chef-13.9.4/lib"
+      }
+    }
+  }
+}
