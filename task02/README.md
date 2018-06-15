@@ -24,8 +24,6 @@ Open terminal because all commands in that course you will run from that applica
     openssl genrsa -out ~/.chef/chef-validator.pem 2048
     ```
 
-    ubuntu/xenial64 - is box of ubuntu 16.04 LTS
-
 4. Set default editor in terminal
 
     I use a `vim` if you want to use for exaple `nano` or `mcedit` use it.
