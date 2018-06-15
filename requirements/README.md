@@ -13,7 +13,25 @@
     brew tap homebrew/cask
     ```
 
-3. Install rbenv
+3. Install virtualbox
+
+    ```bash
+    brew cask install virtualbox
+    ```
+
+4. Install vagrant
+
+    ```bash
+    brew cask install vagrant
+    ```
+
+    Optionally:
+
+    ```bash
+    brew cask install vagrant-manager
+    ```
+
+5. Install rbenv
 
     ```bash
     brew install rbenv
@@ -24,7 +42,7 @@
     rbenv global 2.4.1
     ```
 
-4. Install chef and chef-zero
+6. Install chef and chef-zero
 
     ```bash
     brew cask install chef/chef/chefdk
