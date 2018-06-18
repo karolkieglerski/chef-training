@@ -20,16 +20,15 @@ Instruction to install all requirements you can find in `/requirements` director
 2. Create chef repository and configure chef
 3. Add your VM to nodes and environments
 4. Generate your first cookbook
-5. Write your first receipe
-6. Run cookbook with knif-zero
-7. Run cookbook with knife
-8. Write your first cookbook
-9. Use cookbook from supermarket
-10. Write your first role
-11. Run your role
-12. Configure kitchenCI
-13. Write tests in InSpec
-14. Run converge and verification
+5. Write your first receipe and run cookbook with knif-zero
+6. Run cookbook with knife
+7. Write your first cookbook
+8. Use cookbook from supermarket
+9. Write your first role
+10. Run your role
+11. Configure kitchenCI
+12. Write tests in InSpec
+13. Run converge and verification
 
 ## instruction
 
