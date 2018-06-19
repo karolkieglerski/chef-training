@@ -1,0 +1,25 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+  # Use Ubuntu 16.04 LTS box
+  config.vm.box = "ubuntu/xenial64"
+
+  # Setting up private_network to have virtual host
+  config.vm.network :private_network, ip: "192.168.33.10"
+
+  # Enable ssh forward agent
+  config.ssh.forward_agent = true
+
+  # Copy host's user public key to virtual host
+  config.vm.provision "file", source: "~/.ssh/id_rsa.pub", destination: "$HOME/keys/id_rsa.pub"
+
+  # Add host's user public key to authorized_keys in virtual host and install language pack
+  config.vm.provision "shell", inline: <<-SHELL
+    cat /home/vagrant/keys/id_rsa.pub >> /home/vagrant/.ssh/authorized_keys
+    apt-get update
+    apt-get install -y language-pack-en
+    touch /var/lib/cloud/instance/locale-check.skip
+  SHELL
+end
