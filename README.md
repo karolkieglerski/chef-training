@@ -4,11 +4,11 @@ chef, knife, berkshelf, chef-zero, knife-zero training
 
 ---
 
-Instruction to install all requirements you can find in `/requirements` directory. All instructions are written from macos user. If you use Linux or Windows you can find similar instrucions on vendors websites
+Instruction to install all requirements you can find in `/requirements` directory. All instructions are written from MacOS user. If you use Linux or Windows you can find similar instructions on vendors websites
 
 ## requirements
 
-* Virtualbox
+* VirtualBox
 * vagrant
 * chef
 * chef-zero
@@ -20,7 +20,7 @@ Instruction to install all requirements you can find in `/requirements` director
 2. Create chef repository and configure chef
 3. Add your VM to nodes and environments
 4. Generate your first cookbook
-5. Write your first receipe and run cookbook with knif-zero
+5. Write your first recipe and run cookbook with knife-zero
 6. Run cookbook with knife
 7. Write your first cookbook
 8. Use cookbook from supermarket
@@ -32,7 +32,7 @@ Instruction to install all requirements you can find in `/requirements` director
 
 ## instruction
 
-In every directory you have task instruction, code to use (it required) and a code you could get at the end of that task in `complite` directory. 
+In every directory you have task instruction, code to use (it required) and a code you could get at the end of that task in `complete` directory.
 
 Do task by task and have fun!
 
