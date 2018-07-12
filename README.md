@@ -26,8 +26,7 @@ Instruction to install all requirements you can find in `/requirements` director
 8. Use cookbook from supermarket
 9. Write your first role
 10. Configure kitchenCI
-11. Write tests in InSpec
-12. Run converge and verification
+11. Write tests in InSpec and run it
 
 ## instruction
 
