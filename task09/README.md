@@ -26,12 +26,12 @@ Open terminal because all commands in that course you will run from that applica
 
 3. Add role as default run list
 
-  ```
-  knife node run_list set 'development-server' 'role[webserver]'
-  ```
+    ```
+    knife node run_list set 'development-server' 'role[webserver]'
+    ```
 
 4. Run converge without overriding
 
-  ```
-  knife zero converge "chef_environment:development" --ssh-user vagrant
-  ```
+    ```
+    knife zero converge "chef_environment:development" --ssh-user vagrant
+    ```
