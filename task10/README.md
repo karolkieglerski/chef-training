@@ -58,6 +58,6 @@ Open terminal because all commands in that course you will run from that applica
 
 3. To destroy kitchen
 
-  ```bash
-  kitchen destroy
-  ```
+    ```bash
+    kitchen destroy
+    ```
